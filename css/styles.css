@@ -8,12 +8,59 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 header {
 width: 100%;
-height: 100vh;
-
-}
-
-.carousel{
-width: 7500px;
 height: 500px;
+margin-bottom: 5em;
 
 }
+
+.carousel {
+background-color: antiquewhite;
+text-align: center;
+}
+
+.carousel .carousel-item{
+width: 100%;
+height: 500px;
+background-color: aqua;
+}
+
+.carousel .carousel-item img{
+width: 100%;
+
+}
+
+/* final cabecera y carrusel*/
+
+#imagenytexto{
+
+display: flex;
+
+justify-content: center;
+
+text-align: center;
+
+
+}
+
+#imagenytexto .texto{
+
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    margin: 2em;
+    
+    
+}
+
+
+
+#imagenytexto img{
+
+    width: 50%;
+    margin: 2em;
+    border-style: none;
+    
+    }
+
+
