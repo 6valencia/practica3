@@ -82,3 +82,19 @@ background-color: aquamarine;
 width:100%;
 
 }
+
+#formulariocomentarios {
+
+background-color: blue;
+height: 250px;
+justify-content: center;
+}
+
+
+#formulariocomentarios .mb-3 {
+
+width: 55%;
+
+    
+    }
+    
