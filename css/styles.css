@@ -85,23 +85,43 @@ width:100%;
 
 #formulariocomentarios {
 
-background-color: blue;
+
 height: 250px;
-
-}
-
-#formulariocomentarios .ostias {
-
-background-color: rgb(13, 255, 0);
-width: 50%;
-justify-content: center;
+margin-left: 3em;
 
 }
 
 
 #formulariocomentarios .mb-3 {
+width: 100%;
+
+justify-content: center;
+}
+
+#formulariocomentarios .mb-3 label {
 width: 55%;
 
-    
-    }
-    
+
+}
+
+#formulariocomentarios .mb-3 input {
+width: 55%;
+
+
+}
+
+#formulariocomentarios .mb-3 textarea {
+width: 55%;
+
+
+}
+      
+.btn{
+    margin-left: 3em;
+}
+
+#liveAlertPlaceholder {
+
+    width: 53.4%;
+    margin-left: 3em;
+}
