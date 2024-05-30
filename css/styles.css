@@ -87,12 +87,19 @@ width:100%;
 
 background-color: blue;
 height: 250px;
+
+}
+
+#formulariocomentarios .ostias {
+
+background-color: rgb(13, 255, 0);
+width: 50%;
 justify-content: center;
+
 }
 
 
 #formulariocomentarios .mb-3 {
-
 width: 55%;
 
     
