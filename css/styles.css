@@ -19,6 +19,7 @@ position: sticky;
 width: 100%;
 height: 400px;
 text-align: center;
+justify-content: center;
 }
 
 .carousel .carousel-item{
@@ -195,6 +196,18 @@ width: 700px;
     height: 100px;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    background: linear-gradient(white, rgb(162, 162, 162));
+   }
+
+   footer figure {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+   }
+
+   footer figure img {
+    width:10%;
    }
 
 
@@ -213,10 +226,26 @@ width: 700px;
         nav {
         position: sticky;
         }
+
+        .modal {
+            width: 500px;
+            height:800px;
+            }
+            
+            .modal-dialog {
+                width: 500px;
+                height:800px;
+                display: flex;
+            }
+            
+            .modal-content {
+                width: 500px;
+            height:800px;
+            }
         
         .carousel {
         width: 100%;
-        height: 230px;
+        height: 800px;
         text-align: center;
         }
         
@@ -231,8 +260,7 @@ width: 700px;
         
         /* final cabecera y carrusel*/
         
-        #imagenytexto{
-        
+        #imagenytexto{ 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -413,10 +441,28 @@ background-size: cover;
    
            /*--FINAL DE PRODUCTOS--*/
    
-      }
         /*--FINAL DE PRODUCTOS--*/
 
+        footer {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            background: linear-gradient(white, rgb(162, 162, 162));
+           }
+        
+           footer figure {
+            width: 20%;
+            height: 100%;
+            align-content: center;
+           }
+        
+           footer figure img {
+            width:20%;
+           }
 
+        }
 
    /*---TAMAÑO RESPONSIVE PARA MOVIL--------------------------------------------------------------------------*/
    
@@ -432,6 +478,22 @@ background-size: cover;
         nav {
         position: sticky;
         }
+
+        .modal {
+            width: 500px;
+            height:600px;
+            }
+            
+            .modal-dialog {
+                width: 500px;
+                height:600px;
+                display: flex;
+            }
+            
+            .modal-content {
+                width: 500px;
+            height:600px;
+            }
         
         .carousel {
         width: 100%;
@@ -478,10 +540,10 @@ background-size: cover;
             margin-top: 200px;
            padding: 2em;
             border-style: none;
-            }
+       }
             
 
-    /*--FINAL QUIENES SOMOS--*/
+     /*--FINAL QUIENES SOMOS--*/
 
        /*--COMIENZO DE RESEÑAS--*/
 
@@ -629,5 +691,25 @@ width: 100%;
     
 
         /*--FINAL DE PRODUCTOS--*/
+        footer {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            background: linear-gradient(white, rgb(162, 162, 162));
+           }
+        
+           footer figure {
+            width: 20%;
+            height: 100%;
+            align-content: center;
+           }
+        
+           footer figure img {
+            width:25%;
+           }
 
    }
+
+
