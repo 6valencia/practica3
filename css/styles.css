@@ -77,41 +77,65 @@ background-color: aqua;
 margin: 2em;
 }
 
+.coralbabies {
+width: 400px;
+height: 400px;
+background-image: url(../img/anillo_coral.jpg);
+background-size: cover;
+}
+
+.anillofeo {
+width: 400px;
+height: 400px;
+background-image: url(../img/anillos_metal.jpg);
+background-size: cover;
+}
+
 .container .card {
 background-color: aquamarine;
-width:100%;
-
+width:400px;
 }
 
 #formulariocomentarios {
 
-
-height: 250px;
-margin-left: 3em;
-
+justify-content: space-around;
+height: 100%;
+justify-content: center;
+display: flex;
+background-color: aqua;
 }
 
+#formulariocomentarios #elformulario {
+
+width: 50%;
+}
 
 #formulariocomentarios .mb-3 {
-width: 100%;
-
+width: 75%;
+background-color: aquamarine;
+margin-left: 3em;
 justify-content: center;
 }
 
 #formulariocomentarios .mb-3 label {
-width: 55%;
+width: 75%;
+
 
 
 }
 
 #formulariocomentarios .mb-3 input {
-width: 55%;
+width: 75%;
+
+
 
 
 }
 
 #formulariocomentarios .mb-3 textarea {
-width: 55%;
+width: 75%;
+
+
 
 
 }
@@ -122,6 +146,41 @@ width: 55%;
 
 #liveAlertPlaceholder {
 
-    width: 53.4%;
+    width: 75%;
     margin-left: 3em;
 }
+
+#formulariocomentarios #opiniones   {
+width: 50%;
+
+margin-right: 2em;
+    }
+
+
+
+#formulariocomentarios #opiniones .card  {
+
+  margin-bottom: 1em;
+    margin-right: 1.5em;
+        }
+    
+
+
+ #btn-registro .modal-content{
+
+width: 700px;
+
+        }
+    
+   .modal-body {
+
+    justify-content: space-around;
+   }    
+
+/* espacio para la contraseña */
+  
+   .modal-body .mb-3 {
+
+ margin-top: 1em;
+
+   }    
