@@ -8,26 +8,27 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 header {
 width: 100%;
-height: 500px;
-margin-bottom: 5em;
-
 
 }
 
+nav {
+position: sticky;
+}
+
 .carousel {
-background-color: antiquewhite;
+width: 100%;
+height: 400px;
 text-align: center;
+background-color: aqua;
 }
 
 .carousel .carousel-item{
 width: 100%;
-height: 500px;
-background-color: aqua;
+height: 400px;
 }
 
 .carousel .carousel-item img{
 width: 100%;
-
 }
 
 /* final cabecera y carrusel*/
@@ -90,6 +91,8 @@ height: 400px;
 background-image: url(../img/anillos_metal.jpg);
 background-size: cover;
 }
+
+/*------- COMENTARIOS---------*/
 
 .container .card {
 background-color: aquamarine;
@@ -183,4 +186,178 @@ width: 700px;
 
  margin-top: 1em;
 
-   }    
+   } 
+
+   /*---TAMAÑO RESPONSIVE PARA MOVIL--------------------------------------------------------------------------*/
+   
+   @media (max-width: 430px) {
+
+    /*--QUIENES SOMOS--*/
+
+    header {
+        width: 100%;
+        
+        }
+        
+        nav {
+        position: sticky;
+        }
+        
+        .carousel {
+        width: 100%;
+        height: 230px;
+        text-align: center;
+        }
+        
+        .carousel .carousel-item{
+        width: 100%;
+        height: 400px;
+        }
+        
+        .carousel .carousel-item img{
+        width: 100%;
+        }
+        
+        /* final cabecera y carrusel*/
+        
+        #imagenytexto{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+        }
+        
+        #imagenytexto .texto{
+        
+            display: flex;
+            flex-direction: column;
+            padding-left: 2em;
+            padding-right: 2em;
+            width: 100%; 
+            
+        }
+        
+        
+        
+        #imagenytexto img{
+        
+            width: 100%;
+            padding-left: 2em;
+            padding-right: 2em;
+            border-style: none;
+            
+            }
+            
+
+    /*--FINAL QUIENES SOMOS--*/
+
+       /*--COMIENZO DE RESEÑAS--*/
+
+       .container .card {
+        width:400px;
+        }
+        
+        #formulariocomentarios {
+        
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: justify;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        }
+        
+        #formulariocomentarios #elformulario {
+        
+            width: 100%;
+            justify-content: center;
+            background-color:beige;
+        }
+        
+        #formulariocomentarios .mb-3 {
+        width: 340px;
+        
+        justify-content: center;
+        }
+        
+        #formulariocomentarios .mb-3 label {
+        width: 340px;
+        
+        
+        
+        }
+        
+        #formulariocomentarios .mb-3 input {
+        width: 340px;
+        
+        
+        
+        
+        }
+        
+        #formulariocomentarios .mb-3 textarea {
+        width: 340px;
+        
+        
+        
+        
+        }
+              
+        .btn{
+            margin-bottom: 1em;
+        }
+        
+        #liveAlertPlaceholder {
+            width: 340px;
+            margin-left: 3em;
+        } 
+        
+        #formulariocomentarios #opiniones   {
+        width: 456px;
+        background-color:aquamarine;
+        align-items: center;
+        margin: 0;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        
+        
+        
+        #formulariocomentarios #opiniones .card  {
+         
+            width: 395px;
+        
+                }
+            
+        
+        
+         #btn-registro .modal-content{
+        
+        width: 700px;
+        
+                }
+            
+           .modal-body {
+        
+            justify-content: space-around;
+           }    
+        
+        /* espacio para la contraseña */
+          
+           .modal-body .mb-3 {
+        
+         margin-top: 1em;
+        
+           } 
+        
+
+        /*--FINAL DE RESEÑAS--*/
+
+   }
